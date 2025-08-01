@@ -1,0 +1,21 @@
+{
+  "name": "mpdu-complaint-automated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node mpduComplaints.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "moment-timezone": "^0.5.46",
+    "nodemailer": "^6.9.16",
+    "xlsx": "^0.18.5"
+  }
+}
