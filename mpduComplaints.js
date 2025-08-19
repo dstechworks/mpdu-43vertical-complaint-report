@@ -7,10 +7,6 @@ const nodemailer = require("nodemailer");
 
 let accountList = [
     {
-        "user": "chirag.p@techworks.co.in",
-        "pass": "Byzzy1-jucton-gogkeq"
-    },
-    {
         "user": "bharti.singh@techworks.co.in",
         "pass": "gymruc-saKpu8-purnoc"
     },
@@ -25,8 +21,8 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: accountList[0].user,
-        pass: accountList[0].pass
+        user: accountList[1].user,
+        pass: accountList[1].pass
     }
 });
 
